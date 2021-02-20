@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student's Data Entry Form</title>
+    <link rel="stylesheet" href="201952223_form.css">
+    <script src="201952223_form.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="heading">
+    <h1>Student's Data Entry Form</h1>
+  </div>
+   
+     <div class="container">
+     
+      <img src="bg padding.jpg" alt="form">
+
+    <div class="text_area">
+
+    <form name="s_form" action="" method="POST" onsubmit="return validate_form()">
+
+      <h3>
+        <label>Student's ID</label></br>
+        <input
+          type="text"
+          name="ID"
+          placeholder=" Eg : 20195XXXX"
+        /> 
+        
+      <h3>
+        <label>Student's Name</label></br>
+        <input
+          type="text"
+          name="Student's name"
+          placeholder=" Name"
+        />
+      </h3>
+
+      <h3>
+        <label>Course Name</label></br>
+
+        <select name="course" id="course">
+          <option value="Course">---- Select the Course ----</option>
+          <option value="CS-202">CS-202  ( SS )</option>
+          <option value="CS-206">CS-206  ( OS )</option>
+          <option value="CS-204">CS-202  ( DBMS )</option>
+          <option value="CS-208">CS-202  ( COA )</option>
+          <option value="IT-202">CS-202  ( WT )</option>
+          <option value="CS-262">CS-202  ( WT Lab )</option>
+        </select>
+      </h3>
+
+      <h3>
+        <label>Email</label></br>
+        <input type="email" name="Email" placeholder="Eg : xyz@gmail.com" />
+      </h3>
+       
+      <h3>
+        <label>Password</label></br>
+        <input
+          type="password"
+          name="password"
+          placeholder="************"
+        />
+      </h3>
+
+      <h3>
+        <label>Confirm Password</label></br>
+        <input
+          type="password"
+          name="Confirm password"
+          placeholder="************"
+        />
+      </h3></br>
+     
+      <h3>    
+        <input type="reset" value="Cancel" class="btnc" style="float: right ; margin-left : 15px" />
+        <input type="submit" value="Submit" class="btnb" style="float: right" />
+      </h3></br>
+
+    </form>
+
+  </div>
+</div>
+
+  </body>
+</html>

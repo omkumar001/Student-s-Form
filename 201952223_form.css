@@ -1,0 +1,63 @@
+.heading {
+  background-color: rgb(39, 15, 126);
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+  height: 130px;
+  padding-top: 30px;
+  padding-left: 500px;
+}
+
+.container {
+  position: relative;
+}
+
+.text_area {
+  position: absolute;
+
+  bottom: 50px;
+  left: 430px;
+  top: 60px;
+
+  padding-top: 70px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+
+  background-color: whitesmoke;
+  opacity: 1.2;
+  color: black;
+
+  border: 1px;
+  border-radius: 3%;
+}
+
+.btnb:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.btnc:hover {
+  background-color: #ee1414;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 1200%;
+}
+
+input {
+  font-size: 16px;
+  margin-bottom: 23px;
+}
+
+label {
+  font-size: 23px;
+}
+
+select,
+option {
+  font-size: 16px;
+  margin-bottom: 23px;
+}
